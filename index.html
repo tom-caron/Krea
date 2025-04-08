@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Krea - agence web</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">KREA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item"><button class="btn btn-primary ms-2">Get Started</button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero min-vh-100 d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="display-4 fw-bold mb-4" style="color: var(--primary);">Professional consulting for your app & software.</h1>
+            <p class="lead mb-4" style="color: var(--dark);">Hey there! I'm John Parker. Coding consultant focused on scaling and deployment solutions.</p>
+            <button class="btn btn-primary btn-lg me-3">Get in touch</button>
+            <a href="#services" class="btn btn-outline-light btn-lg">See our services</a>
+          </div>
+          <div class="col-lg-6">
+            <img src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98" alt="Consultant" class="img-fluid rounded-4 hero-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+      <div class="container">
+        <h2 class="section-title mb-4">Things I do for you that simply make your software better.</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="service-card p-4 rounded-4">
+              <i class="bi bi-code-slash fs-2 mb-3" style="color: var(--primary);"></i>
+              <h3>General code</h3>
+              <p>Modern solutions for modern problems. Expert code review and optimization.</p>
+              <a href="#" class="btn btn-link px-0">Read more</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-card p-4 rounded-4">
+              <i class="bi bi-gear fs-2 mb-3" style="color: var(--primary);"></i>
+              <h3>Code systems</h3>
+              <p>Comprehensive system architecture and infrastructure solutions.</p>
+              <a href="#" class="btn btn-link px-0">Read more</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-card p-4 rounded-4">
+              <i class="bi bi-cloud fs-2 mb-3" style="color: var(--primary);"></i>
+              <h3>DevOps</h3>
+              <p>Streamline your deployment pipeline and optimize operations.</p>
+              <a href="#" class="btn btn-link px-0">Read more</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-card p-4 rounded-4">
+              <i class="bi bi-people fs-2 mb-3" style="color: var(--primary);"></i>
+              <h3>Agile consulting</h3>
+              <p>Transform your team's workflow with agile methodologies.</p>
+              <a href="#" class="btn btn-link px-0">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5" style="color: var(--primary);">Proven process for success</h2>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="process-step">
+              <h3 class="display-4 mb-3">01</h3>
+              <h4>Contact me</h4>
+              <p>Initial consultation to understand your needs and goals.</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="process-step">
+              <h3 class="display-4 mb-3">02</h3>
+              <h4>Research</h4>
+              <p>Deep dive into your current systems and requirements.</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="process-step">
+              <h3 class="display-4 mb-3">03</h3>
+              <h4>Work</h4>
+              <p>Implementation of solutions and continuous improvement.</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="process-step">
+              <h3 class="display-4 mb-3">04</h3>
+              <h4>Test & results</h4>
+              <p>Thorough testing and validation of implemented solutions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimonials" class="py-5">
+      <div class="container">
+        <h2 class="mb-5" style="color: var(--primary);">Don't just take my word for it</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" alt="Team" class="img-fluid rounded-4">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
