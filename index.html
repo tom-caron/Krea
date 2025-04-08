@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     <title>Krea - agence web</title>
 </head>
 <body>
@@ -44,46 +45,149 @@
       </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="py-5">
-      <div class="container">
-        <h2 class="section-title mb-4">Things I do for you that simply make your software better.</h2>
-        <div class="row g-4">
-          <div class="col-md-6 col-lg-3">
-            <div class="service-card p-4 rounded-4">
-              <i class="bi bi-code-slash fs-2 mb-3" style="color: var(--primary);"></i>
-              <h3>General code</h3>
-              <p>Modern solutions for modern problems. Expert code review and optimization.</p>
-              <a href="#" class="btn btn-link px-0">Read more</a>
+        <!-- Services Section -->
+        <section id="services" class="py-5">
+            <div class="container">
+              <h2 class="section-title mb-5">Nos Prestations</h2>
+              <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                  <div class="service-card">
+                    <div class="service-icon">
+                      <i class="bi bi-code-slash"></i>
+                    </div>
+                    <h3>Site vitrine</h3>
+                    <p>Création de site internet professionnel pour les entreprises souhaitant une présence en ligne simple et efficace.</p>
+                    <a href="#detail-vitrine" class="service-link">En savoir plus</a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-bag-fill"></i>
+                    </div>
+                    <h3>Site e-commerce</h3>
+                    <p>Conception de boutique en ligne pour vendre des produits ou services.</p>
+                    <a href="#detail-commerce" class="service-link">En savoir plus</a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-tools"></i>
+                    </div>
+                    <h3>Refonte de site internet</h3>
+                    <p>Amélioration et modernisation d’un site existant.</p>
+                    <a href="#detail-refonte" class="service-link">En savoir plus</a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <div class="service-card">
+                    <div class="service-icon">
+                      <i class="bi bi-people"></i>
+                    </div>
+                    <h3>Formations / Accompagnement Digital</h3>
+                    <p>Sessions de formation personnalisées (en présentiel ou visio)</p>
+                    <a href="#detail-formation" class="service-link">En savoir plus</a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="service-card p-4 rounded-4">
-              <i class="bi bi-gear fs-2 mb-3" style="color: var(--primary);"></i>
-              <h3>Code systems</h3>
-              <p>Comprehensive system architecture and infrastructure solutions.</p>
-              <a href="#" class="btn btn-link px-0">Read more</a>
+          </section>
+
+        <!-- Détail Site Vitrine -->
+        <section id="detail-vitrine" class="py-5">
+            <div class="container">
+            <div class="row align-items-center shadow service-detail p-4">
+                <div class="col-md-6">
+                    <img src="images/mockup-site-vitrine-exemple.png" alt="Site Vitrine" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-4 section-title">Site Vitrine</h2>
+                    <p class="mb-4">Création de site internet professionnel pour les entreprises souhaitant une présence en ligne simple et efficace.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Site 100% responsive (mobile/tablette)</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Design personnalisé adapté à l’identité visuelle</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Jusqu'à 5 pages incluses</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Intégration Google Maps</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Optimisation SEO basique</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Formation à l’administration du site</li>
+                    </ul>
+                    <p class="mb-4 mt-4 price text-center">À partir de 1200€ HT</p>
+                </div>
+                
             </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="service-card p-4 rounded-4">
-              <i class="bi bi-cloud fs-2 mb-3" style="color: var(--primary);"></i>
-              <h3>DevOps</h3>
-              <p>Streamline your deployment pipeline and optimize operations.</p>
-              <a href="#" class="btn btn-link px-0">Read more</a>
             </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="service-card p-4 rounded-4">
-              <i class="bi bi-people fs-2 mb-3" style="color: var(--primary);"></i>
-              <h3>Agile consulting</h3>
-              <p>Transform your team's workflow with agile methodologies.</p>
-              <a href="#" class="btn btn-link px-0">Read more</a>
+        </section>
+
+        <!-- Détail Site e-commerce -->
+        <section id="detail-commerce" class="py-5">
+            <div class="container">
+                <div class="row align-items-center shadow service-detail p-4">
+                    <div class="col-md-6">
+                        <h2 class="mb-4 section-title">Site e-commerce</h2>
+                        <p class="mb-4">Conception de boutique en ligne pour vendre des produits ou services.</p>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Site sous WooCommerce ou Prestashop</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Gestion des produits, stock, commandes</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Paiement en ligne sécurisé (Stripe / Paypal)</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Gestion des livraisons</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Optimisation SEO</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Formation à l’administration de la boutique</li>
+                        </ul>
+                        <p class="mb-4 mt-4 price text-center">À partir de 2500€ HT</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/site-e-commerce-exemple.png" alt="Site Vitrine" class="img-fluid rounded">
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
+
+        <!-- Détail refonte -->
+        <section id="detail-refonte" class="py-5">
+            <div class="container">
+                <div class="row align-items-center shadow service-detail p-4">
+                    <div class="col-md-6">
+                        <img src="images/Refonte-de-site-internet.png" alt="Site Vitrine" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="mb-4 section-title">Refonte de site internet</h2>
+                        <p class="mb-4">Amélioration et modernisation d’un site existant.</p>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Audit du site actuel</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Refonte graphique et technique</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Optimisation SEO et performance</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Responsive design</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Sécurisation du site</li>
+                        </ul>
+                        <p class="mb-4 mt-4 price text-center">À partir de 1000€ HT</p>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <!-- Détail formation -->
+        <section id="detail-formation" class="py-5">
+            <div class="container">
+                <div class="row align-items-center shadow service-detail p-4">
+                    <div class="col-md-6">
+                        <h2 class="mb-4 section-title">Formations / Accompagnement Digital</h2>
+                        <p class="mb-4">Sessions de formation personnalisées (en présentiel ou visio)</p>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Apprendre à gérer son site WordPress</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Comprendre les bases du SEO</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Créer et gérer ses réseaux sociaux</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Initiation à Google Analytics / Google My Business</li> 
+                        </ul>
+                        <p class="mb-4 mt-4 price text-center">Séance de 2h 180€ HT | Pack de 3 séances 450€ HT</p>
+                    </div> 
+                    <div class="col-md-6">
+                        <img src="images/formation-exemple.png" alt="Site Vitrine" class="img-fluid rounded" width="400">
+                    </div>
+                </div>
+            </div>
+        </section>
+  
 
     <!-- Process Section -->
     <section id="process" class="py-5">
