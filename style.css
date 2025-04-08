@@ -7,29 +7,87 @@
   --text-dark: #333333;
 }
 
+@font-face {
+  font-family: 'Barabara';
+  src: url('fonts/Barabara.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('fonts/Nunito-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Nunito', system-ui, sans-serif;
-  background-color: var(--light) !important;
+  font-family: 'Nunito', system-ui, -apple-system, sans-serif !important;
+  background-color: var(--light);
   color: var(--text-dark);
 }
 
 .navbar {
-  padding: 1rem 0;
+  height: 80px;
   background-color: rgba(247, 233, 225, 0.95) !important;
 }
 
 .navbar-brand {
-  font-family: 'Barbara', 'Nunito', sans-serif;
-  font-size: 2rem;
+  font-family: 'Barabara', 'Nunito', sans-serif !important;
+  font-size: 3rem;
   color: var(--primary) !important;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: 50px;
 }
 
 .nav-link {
   color: var(--dark) !important;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .nav-link:hover {
   color: var(--primary) !important;
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--dark) !important;
+  border-color: var(--dark) !important;
+}
+
+.col-lg-6 h1 {
+  font-family: 'Barabara', 'Nunito', sans-serif !important;
+  font-size: 3rem !important;
+  color: var(--primary) !important;
+}
+
+#exception {
+  background-color: var(--primary) !important;
+  color: #FFF !important;
+}
+
+#exception:hover {
+  background-color: var(--dark) !important;
+  color: #FFF !important;
+}
+
+.col-lg-6 a {
+  background-color: #FFF !important;
+  color: #000!important;
+}
+
+.col-lg-6 a:hover {
+  color: #FFF!important;
+  background-color: var(--secondary)!important;
+  border-color: #FFF!important;
 }
 
 .hero {
