@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
     <title>Krea - agence web</title>
 </head>
 <body>
@@ -192,7 +195,7 @@
     <!-- Process Section -->
     <section id="process" class="py-5">
       <div class="container">
-        <h2 class="text-center mb-5" style="color: var(--primary);">Proven process for success</h2>
+        <h2 class="text-center section-title mb-5" style="color: var(--primary);">Proven process for success</h2>
         <div class="row">
           <div class="col-lg-3">
             <div class="process-step">
@@ -218,7 +221,7 @@
           <div class="col-lg-3">
             <div class="process-step">
               <h3 class="display-4 mb-3">04</h3>
-              <h4>Test & results</h4>
+              <h4>Test et results</h4>
               <p>Thorough testing and validation of implemented solutions.</p>
             </div>
           </div>
@@ -226,16 +229,30 @@
       </div>
     </section>
 
-    <!-- Testimonial Section -->
+    <!-- réalisation Section -->
     <section id="testimonials" class="py-5">
-      <div class="container">
-        <h2 class="mb-5" style="color: var(--primary);">Don't just take my word for it</h2>
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" alt="Team" class="img-fluid rounded-4">
+        <h2 class="section-title text-center mb-5">Nos Réalisations</h2>
+        <div id="carouselExampleControls" class="container carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/realisation1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/realisation2.png" class="d-block w-100" alt=".ddzde..">
+              </div>
+              <div class="carousel-item">
+                <img src="images/realisation3.png" class="d-block w-100" alt=".cvzeev.">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-        </div>
-      </div>
     </section>
 
      <!-- Contact Form Section -->
