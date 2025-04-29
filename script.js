@@ -16,5 +16,5 @@ document.querySelector('form').addEventListener('submit', function(e) {
         "Message :\n" + description
     );
 
-    window.location.href = `mailto:caron.tom1@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:agencekrea@hotmail.com?subject=${subject}&body=${body}`;
 });
