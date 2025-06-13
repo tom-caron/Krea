@@ -1,5 +1,5 @@
 {
-  "name": "Krea Test GitHub Actions",
+  "name": "krea_test_github_action",
   "version": "1.0.0",
   "description": "Projet de test avec GitHub Actions",
   "scripts": {
