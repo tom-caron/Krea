@@ -1,0 +1,10 @@
+{
+  "name": "mon-projet",
+  "version": "1.0.0",
+  "description": "Projet de test avec GitHub Actions",
+  "scripts": {
+    "build": "echo 'Pas de build à faire pour ce projet'",
+    "test": "echo 'Tests OK'"
+  },
+  "license": "MIT"
+}
